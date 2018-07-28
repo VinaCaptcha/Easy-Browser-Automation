@@ -44,7 +44,7 @@
             System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Youtube Re-Live Stream auto");
             System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Youtube News Creator");
             System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Youtube Playlist Creator");
-            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Youtube Reporter");
+            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Youtube Suspended Supporter");
             System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Youtube Backlinks on Social Network");
             System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Web Browser 0000", new System.Windows.Forms.TreeNode[] {
             treeNode1,
@@ -104,7 +104,8 @@
             System.Windows.Forms.TreeNode treeNode43 = new System.Windows.Forms.TreeNode("Data Source", new System.Windows.Forms.TreeNode[] {
             treeNode41,
             treeNode42});
-            System.Windows.Forms.TreeNode treeNode44 = new System.Windows.Forms.TreeNode("Global Settings");
+            System.Windows.Forms.TreeNode treeNode44 = new System.Windows.Forms.TreeNode("List File Provider");
+            System.Windows.Forms.TreeNode treeNode45 = new System.Windows.Forms.TreeNode("List SSH Provider");
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.tabBrowser = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -289,17 +290,17 @@
             treeNode1.Name = "Node4";
             treeNode1.SelectedImageKey = "google.png";
             treeNode1.Text = "Google auto login";
-            treeNode2.ImageKey = "gplus.png";
+            treeNode2.ImageKey = "off-button.png";
             treeNode2.Name = "Node0";
-            treeNode2.SelectedImageKey = "gplus.png";
+            treeNode2.SelectedImageKey = "off-button.png";
             treeNode2.Text = "G+ auto login";
-            treeNode3.ImageKey = "facebook.png";
+            treeNode3.ImageKey = "off-button.png";
             treeNode3.Name = "Node1";
-            treeNode3.SelectedImageKey = "facebook.png";
+            treeNode3.SelectedImageKey = "off-button.png";
             treeNode3.Text = "Facebook Auto Login";
-            treeNode4.ImageKey = "twitter.png";
+            treeNode4.ImageKey = "off-button.png";
             treeNode4.Name = "Node1";
-            treeNode4.SelectedImageKey = "twitter.png";
+            treeNode4.SelectedImageKey = "off-button.png";
             treeNode4.Text = "Twitter auto login";
             treeNode5.ImageKey = "youtube-seo-icon.png";
             treeNode5.Name = "Node5";
@@ -348,14 +349,14 @@
             treeNode16.ImageKey = "youtube-report-icon.png";
             treeNode16.Name = "Node2";
             treeNode16.SelectedImageKey = "youtube-report-icon.png";
-            treeNode16.Text = "Youtube Reporter";
+            treeNode16.Text = "Youtube Suspended Supporter";
             treeNode17.ImageKey = "youtube.png";
             treeNode17.Name = "Node1";
             treeNode17.SelectedImageKey = "youtube.png";
             treeNode17.Text = "Youtube Backlinks on Social Network";
-            treeNode18.ImageKey = "firefox.png";
+            treeNode18.ImageKey = "chrome.png";
             treeNode18.Name = "Node1";
-            treeNode18.SelectedImageKey = "firefox.png";
+            treeNode18.SelectedImageKey = "chrome.png";
             treeNode18.Text = "Web Browser 0000";
             this.tvMain.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
             treeNode18});
@@ -394,40 +395,43 @@
             this.imageList24x24.Images.SetKeyName(9, "chrome.png");
             this.imageList24x24.Images.SetKeyName(10, "firefox.png");
             this.imageList24x24.Images.SetKeyName(11, "gmail.png");
-            this.imageList24x24.Images.SetKeyName(12, "youtube.png");
-            this.imageList24x24.Images.SetKeyName(13, "google.png");
-            this.imageList24x24.Images.SetKeyName(14, "pinterest.png");
-            this.imageList24x24.Images.SetKeyName(15, "linkedin.png");
-            this.imageList24x24.Images.SetKeyName(16, "mail.png");
-            this.imageList24x24.Images.SetKeyName(17, "twitter.png");
-            this.imageList24x24.Images.SetKeyName(18, "live24.png");
-            this.imageList24x24.Images.SetKeyName(19, "livefb.png");
-            this.imageList24x24.Images.SetKeyName(20, "facebook.png");
-            this.imageList24x24.Images.SetKeyName(21, "youtube2.png");
-            this.imageList24x24.Images.SetKeyName(22, "gplus.png");
-            this.imageList24x24.Images.SetKeyName(23, "livenews.png");
-            this.imageList24x24.Images.SetKeyName(24, "webbrowser.png");
-            this.imageList24x24.Images.SetKeyName(25, "livestream4.png");
-            this.imageList24x24.Images.SetKeyName(26, "livestream2.png");
-            this.imageList24x24.Images.SetKeyName(27, "livestream3.png");
-            this.imageList24x24.Images.SetKeyName(28, "livestream.png");
-            this.imageList24x24.Images.SetKeyName(29, "youtube-exchange.png");
-            this.imageList24x24.Images.SetKeyName(30, "youtube-seo.png");
-            this.imageList24x24.Images.SetKeyName(31, "youtube-playlist.png");
-            this.imageList24x24.Images.SetKeyName(32, "youtube-reup.png");
-            this.imageList24x24.Images.SetKeyName(33, "youtube-live.png");
-            this.imageList24x24.Images.SetKeyName(34, "youtube-live-icon.png");
-            this.imageList24x24.Images.SetKeyName(35, "youtube-news.png");
-            this.imageList24x24.Images.SetKeyName(36, "youtube-seo-icon.png");
-            this.imageList24x24.Images.SetKeyName(37, "youtube-playlist-icon.png");
-            this.imageList24x24.Images.SetKeyName(38, "youtube-download-icon.png");
-            this.imageList24x24.Images.SetKeyName(39, "youtube-reup-icon.png");
-            this.imageList24x24.Images.SetKeyName(40, "youtube-exchange-icon.png");
-            this.imageList24x24.Images.SetKeyName(41, "youtube-report-icon.png");
-            this.imageList24x24.Images.SetKeyName(42, "youtube-like-icon.png");
-            this.imageList24x24.Images.SetKeyName(43, "youtube-comment-icon.png");
-            this.imageList24x24.Images.SetKeyName(44, "youtube-subscribe-icon.png");
-            this.imageList24x24.Images.SetKeyName(45, "youtube-view-icon.png");
+            this.imageList24x24.Images.SetKeyName(12, "google.png");
+            this.imageList24x24.Images.SetKeyName(13, "pinterest.png");
+            this.imageList24x24.Images.SetKeyName(14, "linkedin.png");
+            this.imageList24x24.Images.SetKeyName(15, "mail.png");
+            this.imageList24x24.Images.SetKeyName(16, "twitter.png");
+            this.imageList24x24.Images.SetKeyName(17, "live24.png");
+            this.imageList24x24.Images.SetKeyName(18, "livefb.png");
+            this.imageList24x24.Images.SetKeyName(19, "facebook.png");
+            this.imageList24x24.Images.SetKeyName(20, "youtube2.png");
+            this.imageList24x24.Images.SetKeyName(21, "gplus.png");
+            this.imageList24x24.Images.SetKeyName(22, "livenews.png");
+            this.imageList24x24.Images.SetKeyName(23, "webbrowser.png");
+            this.imageList24x24.Images.SetKeyName(24, "livestream4.png");
+            this.imageList24x24.Images.SetKeyName(25, "livestream2.png");
+            this.imageList24x24.Images.SetKeyName(26, "livestream3.png");
+            this.imageList24x24.Images.SetKeyName(27, "livestream.png");
+            this.imageList24x24.Images.SetKeyName(28, "on-button.png");
+            this.imageList24x24.Images.SetKeyName(29, "off-button.png");
+            this.imageList24x24.Images.SetKeyName(30, "youtube-view-icon.png");
+            this.imageList24x24.Images.SetKeyName(31, "youtube-subscribe-icon.png");
+            this.imageList24x24.Images.SetKeyName(32, "youtube-comment-icon.png");
+            this.imageList24x24.Images.SetKeyName(33, "youtube-report-icon.png");
+            this.imageList24x24.Images.SetKeyName(34, "youtube-exchange-icon.png");
+            this.imageList24x24.Images.SetKeyName(35, "youtube-seo-icon.png");
+            this.imageList24x24.Images.SetKeyName(36, "youtube-playlist-icon.png");
+            this.imageList24x24.Images.SetKeyName(37, "youtube-download-icon.png");
+            this.imageList24x24.Images.SetKeyName(38, "youtube-reup-icon.png");
+            this.imageList24x24.Images.SetKeyName(39, "youtube-news.png");
+            this.imageList24x24.Images.SetKeyName(40, "youtube-like-icon.png");
+            this.imageList24x24.Images.SetKeyName(41, "youtube-exchange.png");
+            this.imageList24x24.Images.SetKeyName(42, "youtube-seo.png");
+            this.imageList24x24.Images.SetKeyName(43, "youtube-playlist.png");
+            this.imageList24x24.Images.SetKeyName(44, "youtube-reup.png");
+            this.imageList24x24.Images.SetKeyName(45, "youtube-live.png");
+            this.imageList24x24.Images.SetKeyName(46, "youtube-live-icon.png");
+            this.imageList24x24.Images.SetKeyName(47, "youtube-play-icon.png");
+            this.imageList24x24.Images.SetKeyName(48, "youtube.png");
             // 
             // tabPage2
             // 
@@ -435,7 +439,7 @@
             this.tabPage2.ImageKey = "settings.png";
             this.tabPage2.Location = new System.Drawing.Point(4, 34);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Size = new System.Drawing.Size(352, 558);
+            this.tabPage2.Size = new System.Drawing.Size(352, 557);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Global Settings";
             // 
@@ -451,7 +455,7 @@
             this.tableLayoutPanel5.RowCount = 2;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(352, 558);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(352, 557);
             this.tableLayoutPanel5.TabIndex = 35;
             // 
             // toolStrip5
@@ -596,7 +600,9 @@
             treeNode44.ImageKey = "settings.png";
             treeNode44.Name = "ndMacro";
             treeNode44.SelectedImageKey = "settings.png";
-            treeNode44.Text = "Global Settings";
+            treeNode44.Text = "List File Provider";
+            treeNode45.Name = "Node0";
+            treeNode45.Text = "List SSH Provider";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
             treeNode19,
             treeNode20,
@@ -609,7 +615,8 @@
             treeNode36,
             treeNode40,
             treeNode43,
-            treeNode44});
+            treeNode44,
+            treeNode45});
             this.treeView1.SelectedImageIndex = 0;
             this.treeView1.Size = new System.Drawing.Size(346, 512);
             this.treeView1.TabIndex = 37;

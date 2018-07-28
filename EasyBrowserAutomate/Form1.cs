@@ -77,7 +77,7 @@ namespace EasyBrowserAutomation
             for (int i = 1; i <= 100; i++)
             {
                 TreeNode nd = new TreeNode("Web Browser " + i.ToString("0000"));
-                nd.ImageKey = nd.SelectedImageKey = "Firefox.png";
+                nd.ImageKey = nd.SelectedImageKey = "Chrome.png";
                 nd.Nodes.Add("Settings");
                 nd.Nodes.Add("Script");
                 nd.Nodes.Add("SSH");
@@ -95,8 +95,10 @@ namespace EasyBrowserAutomation
 
 
             // Load YoutubeSettingsTest
-            YoutubeReuploadFromFolder ytb1 = new YoutubeReuploadFromFolder();
-            pgGeneralSettings.SelectedObject = ytb1;
+            //YoutubeReuploadFromFolder ytb1 = new YoutubeReuploadFromFolder();
+            //GoogleAccountLogin gc = new GoogleAccountLogin();
+            WebBrowserSettings wb = new WebBrowserSettings();
+            pgGeneralSettings.SelectedObject = wb;
         }
 
 

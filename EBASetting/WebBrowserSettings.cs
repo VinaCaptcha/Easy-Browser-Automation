@@ -8,44 +8,42 @@ using System.Text;
 
 namespace EBASetting
 {
-    public class GoogleAccountLogin
+    public class WebBrowserSettings
     {
         #region Init
-        public GoogleAccountLogin()
+        public WebBrowserSettings()
         {
-            
+
         }
         #endregion
+        
+        #region 01. General
+        [Category("01. General")]
+        [DisplayName("User-Agent")]
+        [Description("Thông tin User-Agent của trình duyệt web.")]
+        public string UserAgent { set; get; }
 
-        #region 01. Google Account
-        [Category("01. Google Account")]
-        [DisplayName("Username")]
-        [Description("Nhập username hoặc gmail cũng được, dùng để login tự động vào google account.")]
-        public string Username { set; get; }
-
-        [Category("01. Google Account")]
+        [Category("01. General")]
         [DisplayName("Password")]
         [PasswordPropertyText(true)]
         [Description("Mật khẩu, dùng để login tự động vào google account.")]
         public string Password { set; get; }
 
-        [Category("01. Google Account")]
+        [Category("01. General")]
         [DisplayName("Email Recover")]
         [Description("Là email khôi phục, không bắt buộc nhưng dùng để login tự động vào google account.")]
         public string EmailRecover { set; get; }
 
-        [Category("01. Google Account")]
+        [Category("01. General")]
         [DisplayName("Phone Recover")]
         [Description("Là số điện thoại khôi phục, không bắt buộc nhưng dùng để login tự động vào google account.")]
         public string PhoneRecover { set; get; }
 
-        [Category("01. Google Account")]
+        [Category("01. General")]
         [DisplayName("Secret Answer")]
         [Description("Là câu trả lời bí mật, không bắt buộc nhưng dùng để login tự động vào google account.")]
         public string SecretAnswer { set; get; }
-        #endregion
 
-        #region 02. Youtube Channel
         [Category("02. Youtube Channel")]
         [DisplayName("Channel Name Selected")]
         [Description("Là tên kênh được chọn để upload nếu bạn có nhiều kênh trong một gmail. Nếu để trống thì tool sẽ tự chọn kênh chính của gmail.")]

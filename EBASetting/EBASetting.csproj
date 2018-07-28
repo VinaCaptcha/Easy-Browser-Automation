@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="WebBrowserSettings.cs" />
     <Compile Include="GoogleAccountLogin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AllGlobalClass.cs" />
     <Compile Include="YoutubeReuploadFromFolder.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
